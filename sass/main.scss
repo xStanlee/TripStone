@@ -9,8 +9,9 @@
 
 @import "pages/home";
 
+@import "components/feature-box.scss";
 @import "components/button";
 @import "components/_composition";
-@import "layout/header";
 
+@import "layout/header";
 @import "layout/grid";
