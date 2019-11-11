@@ -51,7 +51,14 @@
       transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
     }
-    
+    &--green {
+      background-color: #28b485;
+      color: white;
+    }
+    &--green::after {
+      background-color: #28b485;
+      border-radius: 100px;
+    }
 }
 
 .btn-text {
